@@ -21,11 +21,10 @@ tableData.forEach(sighting => {
 
 // select button elements html lines 35 44 
 var button = d3.select("#filter-btn");
-var form = d3.select("form");
+
 
 // events
 button.on("click", handleClick);
-form.on("submit", handleClick);
 
 // function triggerd by event
 function handleClick() {
